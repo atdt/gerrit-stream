@@ -101,6 +101,6 @@ while 1:
     print event
     # Or if you want something more human-readable
     template = templates[event['type']]
-    print template.format(event))
+    print template.format(event)
 
 gerrit.join()
